@@ -1,0 +1,14 @@
+sudo docker run --name=mysql -v /c/Users/User/Documents/projects/python_microservices_k8:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
+sudo docker exec -it mysql mysql -uroot -p  (I created with password root)
+
+docker exec -it mysql bash
+idubi/idubi@electionDB
+mysql -P root -uroot
+select user()
+
+
+CREATE USER 'idubi'@'%' IDENTIFIED BY 'idubi';
+GRANT ALL PRIVILEGES ON *.* TO 'idubi'@'%';
+
+
+FLUSH PRIVILEGES;

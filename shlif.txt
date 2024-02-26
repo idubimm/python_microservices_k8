@@ -1,0 +1,40 @@
+
+
+https://www.youtube.com/@freecodecamp
+
+
+
+Microservice Architecture and System Design with Python & Kubernetes – Full Course
+https://www.youtube.com/watch?v=hmkF77F9TLw
+
+
+
+docker run --name=mysql -v /c/Users/User/Documents/projects/python_microservices_k8:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
+sudo docker exec -it mysql mysql -uroot -p     #root
+docker exec -it mysql mysql -u idubi -p
+
+select user();
+CREATE USER 'idubi'@'%' IDENTIFIED BY 'idubi';
+
+install DBeaver  
+-------------------------------------
+
+tree : 
+./--python---|src--|auth
+
+>cd auth
+-->  python -m venv venv    
+     source ./venv/Scripts/activate
+     #   $ env | grep VIRTUAL
+     #   VIRTUAL_ENV=/c/Users/User/Documents/projects/python_microservices_k8/python/src/auth/venv
+     #   VIRTUAL_ENV_PROMPT=(venv) 
+
+
+     echo "# server.py">server.py
+
+
+
+
+
+
+
